@@ -1,5 +1,5 @@
 ---
-name: Assignment 6 Viz 1
+name: Assignment 6 Visualizations - Big Foot Data Set
 tools: [Python, HTML, vega-lite, altair]
 image: assets/pngs/altair_viz1.png
 description: 
