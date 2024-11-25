@@ -2,7 +2,7 @@
 name: Assignment 6 Visualizations - Big Foot Data Set
 tools: [Python, HTML, vega-lite, altair]
 image: assets/pngs/altair_viz1.png
-description: 
+description: Creating interactive visualization with Altair and Vega-lite on a inclass dataset
 custom_js:
   - vega.min
   - vega-lite.min
@@ -10,8 +10,9 @@ custom_js:
 ---
 
 # Assignment 6 Visualizations
-### Big Foot Sightings Visualization
-This visualization uses Vega-Lite and Altair to create an interactive chart.
+-------------------------------------------------------------
+## Big Foot Sightings Visualization
+This visualization uses Vega-Lite and Altair to create an interactive chart(Select an area over the map).
 
 <div id="vega-chart" style="width: 100%;"></div>
 
@@ -31,7 +32,7 @@ The plot helps people visualize the Big Foot sightings in the USA while built in
 #### Design:
 In the design of this page, I wanted a visual that is easy to understand but incorporates elements of data on a map where people can visually see where people have supposely seen Big Foot. I went with Quantitative data as I was able to map the longitude and latitude onto the map. Additionally, I chose the cool steel color to color the points instead to visually contrast the map. 
 
-### Seasons and UV Index Chart
+## Seasons and UV Index Chart
 <div id="uv-index-chart" style="width: 100%;"></div>
 
 <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
@@ -57,9 +58,9 @@ I went with a bar chart because it is visually comparable and viewers to visuali
 Below are links to the data and analysis code:
 
 <div class="left">
-{% include elements/button.html link="https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/bfro_reports_fall2022.csv" text="The Data" %}
+{% include elements/button.html link="https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/bfro_reports_fall2022.csv" text="Big_Foot Data" %}
 </div>
 
 <div class="right">
-{% include elements/button.html link="https://blog.4dcu.be/programming/2021/05/03/Interactive-Visualizations.html" text="The Analysis" %}
+{% include elements/button.html link="https://github.com/jwu249/jwu249.github.io/blob/main/python_notebooks/altair_viz.ipynb" text="The Analysis" %}
 </div>
